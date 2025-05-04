@@ -39,18 +39,23 @@ Este repositorio contiene código Terraform para aprovisionar rápidamente un en
 
 1. **Clona el repositorio:**
 
+    ```bash
    git clone https://github.com/Keji-dev/quick-azure-dev-env.git
    cd quick-azure-dev-env
 
 2. **Inicia sesión en Azure con Azure CLI**
+
+    ```bash
     az login
 
 3. **Inicializa Terraform**
 
+    ```bash
     terraform init
 
 4. **Previsualiza los cambios**
 
+    ```bash
     terraform fmt && terraform validate && terraform plan 
 
 5. **Aplica la infraestructura**
@@ -60,6 +65,7 @@ Este repositorio contiene código Terraform para aprovisionar rápidamente un en
 
 6. **Conéctate a la VM vía SSH**
 
+    ```bash
     ssh -i ~/.ssh/id_rsa adminuser@<IP_PUBLICA>
 
 Puedes obtener la IP con:
