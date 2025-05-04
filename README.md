@@ -55,6 +55,7 @@ Este repositorio contiene código Terraform para aprovisionar rápidamente un en
 
 5. **Aplica la infraestructura**
 
+    ```bash
     terraform apply
 
 6. **Conéctate a la VM vía SSH**
