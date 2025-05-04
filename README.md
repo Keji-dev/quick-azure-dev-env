@@ -12,17 +12,17 @@ Este repositorio contiene código Terraform para aprovisionar rápidamente un en
 
 ## 📁 Estructura del proyecto
 
-├── compute/ # Recursos relacionados con la máquina virtual
-├── github/ # Recursos para la integración con GitHub
-├── modules/ # Módulos reutilizables (si aplican)
-├── network/ # Recursos de red: VNet, Subnet, NSG
-├── .ssh/ # Claves SSH usadas para acceder a la VM
-├── customdata.tpl # Script de configuración inicial (cloud-init)
-├── linux-ssh-script.tpl # Plantilla para conexión SSH (comentada en main.tf)
-├── main.tf # Infraestructura principal modular
-├── outputs.tf # Salidas como la IP pública
-├── providers.tf # Configuración del proveedor (Azure)
-├── _vars.tf # Variables definidas localmente
+compute/ # Recursos relacionados con la máquina virtual
+github/ # Recursos para la integración con GitHub
+modules/ # Módulos reutilizables (si aplican)
+network/ # Recursos de red: VNet, Subnet, NSG
+.ssh/ # Claves SSH usadas para acceder a la VM
+customdata.tpl # Script de configuración inicial (cloud-init)
+linux-ssh-script.tpl # Plantilla para conexión SSH (comentada en main.tf)
+main.tf # Infraestructura principal modular
+outputs.tf # Salidas como la IP pública
+providers.tf # Configuración del proveedor (Azure)
+_vars.tf # Variables definidas localmente
 
 ## 🚀 ¿Qué se crea?
 
