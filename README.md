@@ -59,11 +59,11 @@ Este repositorio contiene código Terraform para aprovisionar rápidamente un en
 
 6. **Conéctate a la VM vía SSH**
 
-ssh -i ~/.ssh/id_rsa adminuser@<IP_PUBLICA>
+    ssh -i ~/.ssh/id_rsa adminuser@<IP_PUBLICA>
 
 Puedes obtener la IP con:
 
-terraform output public_ip_address
+    terraform output public_ip_address
 
 
 🔐 Seguridad
